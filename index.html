@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="header">
+        <h1>Let's play to 5 !!</h1>
+    </div>
+    <div class="buttons">
+        <div id="Rock">
+            <button class="but">Rock</button>
+        </div>
+        <div id="Paper">
+            <button class="but">Paper</button>
+        </div>
+        <div id="Sci">
+            <button class="but">Scissors</button>
+        </div>
+    </div>
+    <div class="res">
+        <h2 class="rest"><span id="result"></span></h2>
+    </div>
+    <div class="score">
+        <div class="sco">
+            <h1>Player</h1>
+            <span id="playerScore"></span>
+        </div>
+        <div class="sco">
+        <h1>Computer</h1>
+        <span id="compScore"></span>
+        </div>
+    </div>
+    <div id="Reload">
+        <button id="reload" class="but reload">
+            Play again?
+        </button>
+    </div>   
     <script src="game.js"></script>
 </body>
 </html>
